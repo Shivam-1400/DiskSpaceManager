@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Hack_Homepage.HomePageViewController">
+   <children>
+      <AnchorPane prefHeight="50.0" prefWidth="800.0" style="-fx-background-color: skyblue;">
+         <children>
+            <Label layoutX="309.0" layoutY="13.0" prefHeight="23.0" prefWidth="182.0" text="Disk Space Manager">
+               <font>
+                  <Font name="Times New Roman Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="159.0" layoutY="579.0" prefHeight="87.0" prefWidth="482.0" text="Developers info" />
+      <Button layoutX="448.0" layoutY="177.0" mnemonicParsing="false" onAction="#btnStorage" prefHeight="38.0" prefWidth="160.0" style="-fx-background-color: a1e8ff; -fx-border-color: black; -fx-border-radius: 5px;" text="Storage Sense">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="448.0" layoutY="366.0" mnemonicParsing="false" onAction="#btnOperation" prefHeight="38.0" prefWidth="160.0" style="-fx-background-color: a1e8ff; -fx-border-color: black; -fx-border-radius: 5px;" text="File Operations">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="448.0" layoutY="276.0" mnemonicParsing="false" onAction="#btnFile" prefHeight="38.0" prefWidth="160.0" style="-fx-background-color: a1e8ff; -fx-border-color: black; -fx-border-radius: 5px;" text="File and View">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="192.0" layoutY="195.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="208.0" fitWidth="200.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@home.jpeg" />
+               </image></ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
